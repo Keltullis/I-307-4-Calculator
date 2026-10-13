@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace homework
 {
@@ -72,7 +72,7 @@ namespace homework
             return a % b;
         }
 
-        public double factorial(double n) /* Я не помню как считается факториал, пришлось взять готовый :(   */
+        public double factorial(double n) /* Я не помню как считается факториал, пришлось взять готовый из сайта Stack Overflow :(   */
         {
             double result = 1;
             for (int i = 1; i <= n; i++)
